@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.",
   "main": "src/app.js",
+  "engines": {
+    "node": "*"
+  },
   "scripts": {
     "start": "node src/app.js",
     "postinstall": "NODE_ENV=production webpack -p"
