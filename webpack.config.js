@@ -2,13 +2,13 @@ var webpack = require('webpack'),
        path = require('path');
 
 module.exports = {
-    context: 'https://evening-plains-98647.herokuapp.com/app',
+    context: __dirname + '/app',
     entry: {
         app: './app.js',
         vendor: ['angular']
     },
     output: {
-        path:'https://evening-plains-98647.herokuapp.com//public/scripts',
+        path: __dirname + '/public/scripts',
         filename: 'todo.bundle.js'
     },
     plugins: [
