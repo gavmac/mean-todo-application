@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node src/app.js",
 
-    "heroku-prebuild": "webpack -p --config webpack.prod.config.js --progress"
+    "heroku-postbuild": "webpack -p --config /webpack.prod.config.js"
   },
   "repository": {
     "type": "git",
