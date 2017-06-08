@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "postinstall": "webpack -p --config webpack.prod.config.js --progress"
+    "postinstall": "node_modules/webpack"
   },
   "repository": {
     "type": "git",
