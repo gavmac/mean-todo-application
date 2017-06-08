@@ -4,9 +4,9 @@
   "description": "This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "postinstall": "NODE_ENV=production webpack -p"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/treehouse/mean-todo.git"
