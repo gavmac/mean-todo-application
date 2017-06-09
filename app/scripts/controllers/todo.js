@@ -12,8 +12,8 @@ function TodoCtrl ($scope, dataService) {
     var filteredTodos = $scope.todos.filter(function(todo){
       if(todo.edited) {
         return todo
-      }
-    });
+      };
+    })
     dataService.saveTodos(filteredTodos)
       .finally($scope.resetTodoState());
   };
