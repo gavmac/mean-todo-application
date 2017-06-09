@@ -8,7 +8,6 @@
   },
   "scripts": {
     "start": "node src/app.js",
-
     "heroku-prebuild": "webpack -p --config webpack.config.js"
   },
   "repository": {
@@ -26,6 +25,7 @@
     "body-parser": "1.14.2",
     "express": "4.13.4",
     "mongoose": "4.4.5",
+    "requirejs": "^2.3.3",
     "webpack": "^1.12.14"
   },
   "devDependencies": {
