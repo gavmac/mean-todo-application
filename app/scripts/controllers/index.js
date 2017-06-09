@@ -2,9 +2,10 @@
 
 var angular = require('angular');
 
-angular.module('todoListApp').controller('mainCtrl', ['$scope', 'DataService', function($scope, DataService) {
+angular.module('todoListApp')
+    .controller('mainCtrl', ['$scope', 'dataService', function($scope, dataService) {
 
-    DataService.getTodos(function(response){
+    dataService.getTodos(function(response){
         var todos = response.data.todos;
         $scope.todos =  todos;
     });
