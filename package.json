@@ -1,7 +1,7 @@
 {
   "name": "mean-todo",
   "version": "1.0.0",
-  "description": "This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.",
+  "description": "A TODO Application built utilizing the MEAN stack",
   "main": "src/app.js",
   "engines": {
     "node": "v7.6.0"
